@@ -28,6 +28,7 @@ To build a Machine Learning Model - Random Forest Classifier model for this proj
 
 ## Model deployment:
 
+## Summary
 **Impact:**
 The project's impact lies in its potential to provide policymakers and governments with a valuable tool for monitoring and managing income inequality. By accurately predicting individuals' income levels, it can help identify areas where income inequality is most pronounced and where interventions are needed. This information can inform policies and initiatives aimed at reducing income inequality in developing nations, ultimately improving the economic well-being of their populations.
 
