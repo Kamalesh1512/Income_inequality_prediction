@@ -1,4 +1,7 @@
 # Income_inequality_prediction
+## overview
+## Problem Statement
+## Approach
 
 ## Overview 
 Income inequality - when income is distributed in an uneven manner among a population, is a growing problem in developing nations across the world. 
@@ -12,8 +15,6 @@ The target feature for this classification task is "income_above_limit."
 The project aims to build a machine learning model that can make these income predictions effectively. 
 The evaluation metric chosen for assessing the model's performance is the F1-score, which is a balanced measure that takes both precision and recall into account. 
 Achieving a high F1-score indicates that the model can make accurate predictions while minimizing false positives and false negatives.
-
-
 
 ## Approach:
 To build a Machine Learning Model - Random Forest Classifier model for this project, I typically followed these steps:
