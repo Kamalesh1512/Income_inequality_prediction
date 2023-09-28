@@ -1,7 +1,4 @@
 # Income_inequality_prediction
-## overview
-## Problem Statement
-## Approach
 
 ## Overview 
 Income inequality - when income is distributed in an uneven manner among a population, is a growing problem in developing nations across the world. 
