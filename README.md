@@ -26,7 +26,7 @@ To build a Machine Learning Model - Random Forest Classifier model for this proj
 
 5. **Model Evaluation:** Use the F1-score as the primary evaluation metric to assess the model's performance on a validation or test dataset. 
 
-## Model deployment:
+## Approach Model deployment:
 
 ## Summary
 **Impact:**
