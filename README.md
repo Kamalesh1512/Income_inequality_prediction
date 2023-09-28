@@ -13,7 +13,7 @@ The project aims to build a machine learning model that can make these income pr
 The evaluation metric chosen for assessing the model's performance is the F1-score, which is a balanced measure that takes both precision and recall into account. 
 Achieving a high F1-score indicates that the model can make accurate predictions while minimizing false positives and false negatives.
 
-## Approach:
+## Approach - Model Building:
 To build a Machine Learning Model - Random Forest Classifier model for this project, I typically followed these steps:
 
 1. **Data Collection:** Gathered a dataset containing information about individuals, including features related to income and the binary target variable, "income_above_limit."
@@ -26,7 +26,7 @@ To build a Machine Learning Model - Random Forest Classifier model for this proj
 
 5. **Model Evaluation:** Use the F1-score as the primary evaluation metric to assess the model's performance on a validation or test dataset. 
 
-6. **Model Deployment:** Once the model performs well, deploy it in a production environment,to make predictions on new data.
+## Model deployment:
 
 **Impact:**
 The project's impact lies in its potential to provide policymakers and governments with a valuable tool for monitoring and managing income inequality. By accurately predicting individuals' income levels, it can help identify areas where income inequality is most pronounced and where interventions are needed. This information can inform policies and initiatives aimed at reducing income inequality in developing nations, ultimately improving the economic well-being of their populations.
