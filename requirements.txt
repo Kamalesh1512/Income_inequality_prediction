@@ -1,7 +1,6 @@
-scikit-learn
+scikit-learn==1.2.2
 numpy
 pandas
 streamlit
 matplotlib
 seaborn
-streamlit-option-menu

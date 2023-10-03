@@ -32,19 +32,23 @@ Achieving a high F1-score indicates that the model can make accurate predictions
 
 st.sidebar.markdown("""
 # About
-## Approach:
-To build the Random Forest Classifier Model for this project, 
-## I Typically followed these steps:
+## Approach - Project Flow:
+To build a Machine Learning Model - Random Forest Classifier model for this project, I typically followed these steps:
 ### Data Collection: 
-Gather a dataset with income-related features and the binary target variable, "income_above_limit"/"Income_below_limit"
-### Data Preprocessing: 
-Clean, handle missing values, encode categorical variables, and scale numerical features.
-### Feature Engineering: 
-Select and create relevant features and consider feature selection.
-### Model Building: 
-Train a Random Forest Classifier, optimize hyperparameters.
-### Model Evaluation: 
-Assess with F1-score and other metrics like accuracy, precision, recall, and ROC AUC.
-### Model Deployment: 
-Deploy the model for real-world predictions if it performs well.
+Gathered a dataset containing information about individuals, including features related to income and the binary target variable, "income_above_limit."
+Source of data is from The Machine Learning Company. (Confindential not Disclosed)
+### Data Preprocessing:
+Cleaned and preprocessed the data, which involved handling missing values,and treating imbalanced Data.
+### Feature Engineering:
+Performed Feature Engineering, Which involved the Encoding Techniques like One hot Encoding for Categorical features, feature selection on numerical and categorical  
+columns.
+### Model Building:
+Trained few Supervised Machine Learning Algorithmns namely Logistic Regression , K-Nearest Neighbors, Decision Tree Classifier.
+Based on the F1 scores, the Random Forest Classifier (0.9059) outperformed other algorithms including Logistic Regression (0.8911), K-Nearest Neighbors (0.8884), and Decision Tree Classifier (0.8975).
+I made use of Random Forest Classifier as My Final Model and Performed Hyper Parameter tunning , which results in slight improvement from 90.59% to 90.70%.
+### Model Evaluation:
+Used the F1-score as the primary evaluation metric to assess the model's performance on a test dataset.
+Confusion Matrix and ROC Curve is also used to check the Performance of the Model.
+### Model Deployment:
+Model Depolyed Using AWS Service.
 """)
