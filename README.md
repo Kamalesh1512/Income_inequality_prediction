@@ -1,4 +1,4 @@
-# Income_inequality_prediction
+# Income_inequality_prediction - Machine Learning Project
 
 ## Overview 
 Income inequality - when income is distributed in an uneven manner among a population, is a growing problem in developing nations across the world. 
@@ -13,23 +13,28 @@ The project aims to build a machine learning model that can make these income pr
 The evaluation metric chosen for assessing the model's performance is the F1-score, which is a balanced measure that takes both precision and recall into account. 
 Achieving a high F1-score indicates that the model can make accurate predictions while minimizing false positives and false negatives.
 
-
-
-## Approach:
+## Approach - Project Flow:
 To build a Machine Learning Model - Random Forest Classifier model for this project, I typically followed these steps:
+### Data Collection: 
+Gathered a dataset containing information about individuals, including features related to income and the binary target variable, "income_above_limit."
+Source of data is from The Machine Learning Company. (Confindential not Disclosed)
+### Data Preprocessing:
+Cleaned and preprocessed the data, which involved handling missing values,and treating imbalanced Data.
+### Feature Engineering:
+Performed Feature Engineering, Which involved the Encoding Techniques like One hot Encoding for Categorical features, feature selection on numerical and categorical  
+columns.
+### Model Building:
+Trained few Supervised Machine Learning Algorithmns namely Logistic Regression , K-Nearest Neighbors, Decision Tree Classifier.
+Based on the F1 scores, the Random Forest Classifier (0.9059) outperformed other algorithms including Logistic Regression (0.8911), K-Nearest Neighbors (0.8884), and Decision Tree Classifier (0.8975).
+I made use of Random Forest Classifier as My Final Model and Performed Hyper Parameter tunning , which results in slight improvement from 90.59% to 90.70%.
+### Model Evaluation:
+Used the F1-score as the primary evaluation metric to assess the model's performance on a test dataset.
+Confusion Matrix and ROC Curve is also used to check the Performance of the Model.
 
-1. **Data Collection:** Gathered a dataset containing information about individuals, including features related to income and the binary target variable, "income_above_limit."
+### Model deployment:
 
-2. **Data Preprocessing:** Cleaned and preprocessed the data, which involved handling missing values, encoding categorical variables, and treating imbalanced Data.
 
-3. **Feature Engineering:** Select relevant features,and performed feature selection if certain attributes are less informative.
-
-4. **Model Building:** Train a Random Forest Classifier using the preprocessed dataset. Tune hyperparameters like the number of trees in the forest, maximum depth of trees, etc., to optimize model performance.
-
-5. **Model Evaluation:** Use the F1-score as the primary evaluation metric to assess the model's performance on a validation or test dataset. 
-
-6. **Model Deployment:** Once the model performs well, deploy it in a production environment,to make predictions on new data.
-
+## Summary
 **Impact:**
 The project's impact lies in its potential to provide policymakers and governments with a valuable tool for monitoring and managing income inequality. By accurately predicting individuals' income levels, it can help identify areas where income inequality is most pronounced and where interventions are needed. This information can inform policies and initiatives aimed at reducing income inequality in developing nations, ultimately improving the economic well-being of their populations.
 
