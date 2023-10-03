@@ -1,4 +1,4 @@
-# Income_inequality_prediction
+# Income_inequality_prediction - Machine Learning Project
 
 ## Overview 
 Income inequality - when income is distributed in an uneven manner among a population, is a growing problem in developing nations across the world. 
