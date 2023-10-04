@@ -36,7 +36,7 @@ Used the F1-score as the primary evaluation metric to assess the model's perform
 Confusion Matrix and ROC Curve is also used to check the Performance of the Model.
 
 ### Model deployment:
-
+Model deployed using AWS EC2 cloud service.
 
 ## Summary
 **Impact:**
