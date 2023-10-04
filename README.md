@@ -15,6 +15,8 @@ Achieving a high F1-score indicates that the model can make accurate predictions
 
 ## Approach - Project Flow:
 To build a Machine Learning Model - Random Forest Classifier model for this project, I typically followed these steps:
+![image](https://github.com/Kamalesh1512/Income_inequality_prediction/assets/81355463/5442f76c-08b9-4ff0-94da-da311b15c730)
+
 ### Data Collection: 
 Gathered a dataset containing information about individuals, including features related to income and the binary target variable, "income_above_limit."
 Source of data is from The Machine Learning Company. (Confindential not Disclosed)
