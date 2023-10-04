@@ -42,4 +42,4 @@ Model deployed using AWS EC2 cloud service.
 **Impact:**
 The project's impact lies in its potential to provide policymakers and governments with a valuable tool for monitoring and managing income inequality. By accurately predicting individuals' income levels, it can help identify areas where income inequality is most pronounced and where interventions are needed. This information can inform policies and initiatives aimed at reducing income inequality in developing nations, ultimately improving the economic well-being of their populations.
 
-In summary, this project leverages machine learning, specifically a Random Forest Classifier, to predict income levels and address income inequality in developing countries, with the F1-score of 96% accuracy as the key evaluation metric to measure model performance.
+In summary, this project leverages machine learning, specifically a Random Forest Classifier, to predict income levels and address income inequality in developing countries, with the F1-score of 90.70% accuracy as the key evaluation metric to measure model performance.
