@@ -1,4 +1,4 @@
-# Income_inequality_prediction - Machine Learning Project
+# 💵 Income_inequality_prediction - Machine Learning Project
 
 ## webapp url- http://ec2-13-48-45-121.eu-north-1.compute.amazonaws.com:8501/ 
 
